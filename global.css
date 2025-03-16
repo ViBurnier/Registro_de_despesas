@@ -1,0 +1,39 @@
+/*font-awesome*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root{
+    --white: #FFFFFA;
+    --platinum: #E1DEE3;
+    --coral: #FF8552;
+    --coral2: #FF7033;
+    --coral3: #FF621F;
+    --yellow: #FFE066;
+    --yellow2: #FFCE0A;
+    --gray: #40434E;
+    --black: #080705;
+}
+
+/* Define a posição, altura, largura e fonte dos elementos html, body e #wrap */
+html,
+body,
+#wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* GLOBAL */
+
+div a{
+    text-decoration: none;
+    font-size: large;
+    color: var(--black);
+}

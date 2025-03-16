@@ -1,0 +1,33 @@
+/* HEADER */
+header{
+    background-color: var(--coral3);
+    
+}
+header div{
+    padding: .5rem;
+}
+
+header div a{
+    margin-left: 1rem;
+    transition: padding 0.5s;
+}
+
+header #linkHeader a:hover{
+    border-radius: .5rem;
+    background-color: var(--coral2);
+    padding: .2rem;
+}
+
+/* MEDIA HEADER */
+@media(max-width: 320px ){
+    
+    header div a{
+        margin-left: .2rem;
+    }
+}
+
+/* MAIN */
+
+main{
+    background-color: var(--platinum);
+}
