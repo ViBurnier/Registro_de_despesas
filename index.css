@@ -40,7 +40,7 @@ main{
     to{
        
         width: 470px;
-        height: 425px;
+        height: 455px;
         
     }
 }
@@ -53,6 +53,7 @@ main{
     position: relative;
     color: white;
     padding: 1rem;
+    
 }
 
 .animacao{
