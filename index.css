@@ -1,4 +1,4 @@
-@keyframes anima{
+@keyframes introIndex{
     from{
         width: 0px;
         height: 0px;
@@ -11,89 +11,80 @@
     }
 }
 
-/* HEADER */
-header{
-    background-color: var(--coral3);
-    
+.conteudoMainTop{
+    display: flex;
 }
-header div{
-    padding: .5rem;
-}
-
-header div a{
-    margin-left: 1rem;
-    transition: padding 0.5s;
-}
-
-header #linkHeader a:hover{
-    border-radius: .5rem;
-    background-color: var(--coral2);
-    padding: .2rem;
-}
-/* MAIN */
-
-main{
-    background-color: var(--white);
-}
-
 
 #quemSomos{
+    padding-top: 2rem;
+}
+
+#quemSomosText{
     font-size: large;
     font-weight: 500;
     color: rgb(0, 0, 0);
     padding: 1rem;
-}
-/* FOOTER */
-
-footer{
-    background-color: var(--gray);
-}
-
-footer h4{
-    color:#b9babd ;
-}
-
-
-footer a{
-    padding: .2rem;
+    max-width: 29rem;
+    position: relative;
     color: var(--white);
 }
-footer a:hover{
-    background-color:#adaeb480 ;
+
+.fundo{
+    position: absolute;
+    background-color: var(--gray);
     border-radius: .5rem;
+    animation-fill-mode: forwards;
+    animation-name: introIndex;
+    animation-duration: 2s;
 }
 
-.teste{
+#quemSomosText div{
     display: flex;
 }
 
-/* MEDIA  */
-@media(max-width: 425px ){
-    
-    header div a{
-        margin-left: .1rem;
-       
-    }
+.links{
+    font-size: larger;
+    font-weight: 600;
+ }
 
-    .teste{
-        display: block;
-        background-color: var(--gray);
-    }
+ #redeSociais div{
+     padding-bottom: 2rem;
+     display: flex;
+     justify-content: space-around;
+     
+ }
 
-    main div{
-        color: white;
-    }
-    main div a{
-        color: white;
-    }
+ #linkMainBottom{
+     margin-top: 1rem;
+     
+ }
 
-    #linkMain{
-        border: 1px solid blue;
-        width: 300px;
-    }
+ #linkMainBottom a{
+     background-color: var(--coral3);
+     padding-top: 1rem;
+     margin-top: 1rem;
+     display: flex;
+     justify-content: center;
+     height: 4rem;
+     border-radius: .5rem;
+     border: 3px solid var(--coral3);
+     transition: border .6s;
+     transition: color .3s;
+     transition: box-shadow .6s;
+ }
 
-    #linkMain a{
-        border: 1px solid red;
-        display: flex;
+ #linkMainBottom a:hover{
+    color: var(--white);
+    box-shadow: 10px 5px 15px 0px rgb(165, 164, 164);
+    border-bottom: 2px solid #e2571c;
+    border-right: 2px solid #e2571c;
+ }
+
+/* MIDIA MAIN */
+
+@media(max-width: 425px){
+    #containerMain div{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
     }
 }

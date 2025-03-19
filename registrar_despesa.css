@@ -1,0 +1,27 @@
+#containerMain{
+    margin-top: 1rem;
+}
+
+#containerMain div{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+#infoRegistroUser div{
+    border: 2.5px solid var(--vermelho);
+    border-radius: .5rem;
+    padding: .5rem;
+    letter-spacing: .1rem;
+    font-size: large;
+    font-weight: 600;
+    color: black;
+    background-color: var(--white);
+    margin-top: 1rem;
+}
+
+aside{
+    background-color: var(--gray);
+    padding: 1rem;
+    
+}

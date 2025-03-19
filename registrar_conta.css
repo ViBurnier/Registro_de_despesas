@@ -1,0 +1,27 @@
+.boxContainer{
+    background-color: #11151C;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.boxContainer input{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    font-size: large;
+    letter-spacing: .1rem;
+    
+}
+
+.boxContainer .btn{
+    background-color: var(--coral3);
+    margin: auto;
+    width: 15rem;
+}
+
+.boxContainer .btn:hover{
+    color: white;
+}
+
+span{
+    margin: auto;
+}

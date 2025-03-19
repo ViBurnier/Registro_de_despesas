@@ -12,6 +12,8 @@
     --coral: #FF8552;
     --coral2: #FF7033;
     --coral3: #FF621F;
+    --vermelho:#C1292E;
+    --azul: #235789;
     --yellow: #FFE066;
     --yellow2: #FFCE0A;
     --gray: #40434E;
@@ -31,10 +33,155 @@ body,
 }
 
 /* GLOBAL */
+/* MAIN */
+main{
+    background-color: var(--white);
+}
 
+/* HEADER */
+header{
+    background-color: var(--coral3);
+    
+}
+
+header div{
+    padding: .5rem;
+}
+
+header div a{
+    margin-left: 1rem;
+    transition: padding 0.5s;
+}
+
+header #linkHeader a:hover{
+    border-radius: .5rem;
+    background-color: var(--coral2);
+    padding: .2rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--gray);
+}
+
+footer nav div a{
+    color: var(--white);
+}
+
+
+/* LINKS */
 div a{
     text-decoration: none;
     font-size: large;
     color: var(--black);
+}
+
+/* CAMPO DE REGISTRO */
+
+#fieldRegistrationInput{
+    display: flex;
+    flex-direction: column;        
+    max-width: 80%;
+
+}
+
+#fieldRegistrationInput input, #descricaoRegistro{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border: 2px solid var(--vermelho);
+    border-radius: .5rem;
+    font-size: large;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--vermelho);
+}
+
+/* MEDIA  */
+@media(max-width: 425px ){
+    
+    header div a{
+        margin-left: .1rem;
+    }
+
+    main{
+        background-color: var(--gray);
+    }
+
+    main div{
+        color: white;
+    }
+    
+    main div a{
+        color: white;
+    }
+
+    aside{
+        border-top: 2px solid var(--coral3);
+    }
+
+    /* INDEX */
+    .conteudoMainTop{
+        display: block;
+        background-color: var(--gray);
+    }
+
+
+    #quemSomosText div{
+        display: block;
+    }
+    .fundo{
+        display: none;
+    }
+
+    .links{
+       font-size: larger;
+       font-weight: 600;
+    }
+
+    #redeSociais div{
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    #linkMainBottom{
+        margin-top: 1rem;
+    }
+
+    #linkMainBottom a:hover{
+        box-shadow: none;
+    }
+
+    #linkMainBottom a{
+        background-color: var(--coral3);
+        padding-top: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        border-radius: .5rem;
+    }
+
+    /* REGISTRAR DESPESA */
+
+    #fieldRegistrationInput{ 
+        max-width: none;
+    }
+
+    /* REGISTRAR USUARIO */
+    
+    .boxContainer{
+        border-radius: 0;
+    }
+
+    .boxContainer .btn{
+        width: 10rem;
+        margin: auto;
+    }
 }
 
