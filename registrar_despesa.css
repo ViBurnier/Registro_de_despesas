@@ -7,9 +7,12 @@
     margin-bottom: .5rem;
 }
 
+#infoRegistroUser{
+    max-width: 20rem;
+}
 
 #infoRegistroUser div{
-    border: 2.5px solid var(--vermelho);
+    
     border-radius: .5rem;
     padding: .5rem;
     letter-spacing: .1rem;
