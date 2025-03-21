@@ -94,11 +94,6 @@ div a{
     font-size: large;
 }
 
-button{
-    width: 3rem;
-    height: 3rem;
-    border: 2px solid var(--vermelho);
-}
 
 /* MEDIA  */
 @media(max-width: 425px ){
