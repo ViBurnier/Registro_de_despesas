@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="registrar_despesa.css">
+    <link rel="stylesheet" href="consultar.css">
     <link rel="stylesheet" href="global.css">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,50 +18,51 @@
 
 <body>
     <div id="wrap" class=" d-flex flex-column">
-    
+
         <header class="">
-    
+
             <div class="container d-flex justify-content-between">
 
                 <div id="logo" class="">
                     <a href="index.html">
                         <i class="fa-solid fa-coins fa-2xl" style="color: var(--yellow2);"></i>
                     </a>
-                </div> 
-                
+                </div>
+
                 <div id="linkHeader" class="">
                     <a href="consultar.html">Consultar</a>
                     <a href="registrar.html">Registrar</a>
                     <a href="login.html">Logar</a>
                 </div>
             </div>
-    
+
         </header>
-    
-        <main class="flex-grow-1" >
-            <div>
+
+        <main class="flex-grow-1 py-5">
+            <div style="background-color: var(--gray);">
                 <div class="container">
                     <div class="row">
                         <!--DAY-->
-                        <div class="col-md-2">
+                        <div class="col-md-2 py-2">
                             <form action="col-md-2">
                                 <div class="form-group">
-                                    <input type="number" name="" class="form-control" placeholder="Day" id="day"  >
+                                    <input type="number" name="" class="form-control" placeholder="Day" id="day">
                                 </div>
                             </form>
                         </div>
                         <!--DAY-->
                         <!--MONTH-->
-                        <div class="col-md-2">
+                        <div class="col-md-2 py-2">
                             <form action="">
                                 <div class="form-group">
-                                    <input type="number" name="month" id="month" placeholder="Month" class="form-control">
+                                    <input type="number" name="month" id="month" placeholder="Month"
+                                        class="form-control">
                                 </div>
                             </form>
                         </div>
                         <!--MONTH-->
                         <!--YEAR-->
-                        <div class="col-md-2">
+                        <div class="col-md-2 py-2">
                             <form action="">
                                 <div class="form-group">
                                     <input type="number" name="" class="form-control" placeholder="Year" id="year">
@@ -70,57 +71,102 @@
                         </div>
                         <!--YEAR-->
                         <!--TYPE-->
-                        <div class="col-md-6">
+                        <div class="col-md-6 py-2">
                             <input type="text" name="type" id="type" placeholder="Type" class="form-control">
                         </div>
                     </div>
                     <div class="row">
                         <!--DESCRIPTION-->
-                        <div class="col-md-8">
+                        <div class="col-md-8 py-2">
                             <input type="text" class="form-control" placeholder="Description" id="descricao" />
                         </div>
                         <!--VALUE-->
-                        <div class="col-md-2">
+                        <div class="col-md-2 py-2">
                             <input type="text" class="form-control" placeholder="Value" id="valor" />
                         </div>
                         <!--ADD-->
-                        <div class="col-md-2 d-flex justify-content-end">
+                        <div class="col-md-2 d-flex justify-content-end ">
                             <button type="button" class="btn btn-primary" id="btnPage">
                                 <i class="fas fa-plus" id="imageBtn"></i>
                             </button>
                         </div>
                     </div>
                 </div>
+
+                <div style="background-color: white";>
+                    <div class="container">
+                        <div class="row">
+                            <div class="myDespesa">
+
+                                <div class="despesa d-flex">
+                                    <div class="especificacoes">
+                                        <p>Data</p>
+                                        <p>Tipo</p>
+                                        <p>Valor</p>
+                                        <p>Descricao</p>
+                                    </div>
+
+                                    <div class="valoresDespesa">
+                                        <p>12/08/2025</p>
+                                        <p>Aniversario</p>
+                                        <p>300</p>
+                                        <p>meu aniversario de 19 anos</p>
+                                    </div>
+                                </div>
+
+                                <div class="despesa d-flex">
+                                    <div class="especificacoes">
+                                        <p>Data</p>
+                                        <p>Tipo</p>
+                                        <p>Valor</p>
+                                        <p>Descricao</p>
+                                    </div>
+
+                                    <div class="valoresDespesa">
+                                        <p>12/08/2025</p>
+                                        <p>Aniversario</p>
+                                        <p>300</p>
+                                        <p>meu aniversario de 19 anos</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-        </main>
-    
-        <footer class="">
-    
-            <div class="container">
-    
-                <nav class="d-flex justify-content-around">
-                    <div class="d-flex flex-column">
-                        <h4>Links</h4>
-                        <a href="">Blog</a>
-                        <a href="">Home</a>
-                        <a href="">GitHub</a>
-                        <a href="">Instagram</a>
-                    </div>
-    
-                    <div class="d-flex flex-column">
-                        <h4>Help</h4>
-                        <a href="">SAC</a>
-                        <a href="">Talk to us</a>
-                        <a href="">Discussion</a>
-                        <a href="">Privacy Policy</a>
-                    </div>
-                </nav>
-    
-            </div>
-    
-        </footer>
-</div>
+    </div>
+    </main>
+
+    <footer class="">
+
+        <div class="container">
+
+            <nav class="d-flex justify-content-around">
+                <div class="d-flex flex-column">
+                    <h4>Links</h4>
+                    <a href="">Blog</a>
+                    <a href="">Home</a>
+                    <a href="">GitHub</a>
+                    <a href="">Instagram</a>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <h4>Help</h4>
+                    <a href="">SAC</a>
+                    <a href="">Talk to us</a>
+                    <a href="">Discussion</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+            </nav>
+
+        </div>
+
+    </footer>
+    </div>
 
 </body>
 

@@ -1,0 +1,17 @@
+.myDespesa{
+    padding: 1rem;
+}
+
+.despesa{
+    padding: .5rem;
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: large;
+    font-weight: 600;
+    border-radius: .5rem;
+    background-color: var(--gray);
+}
+
+.especificacoes{
+    margin-right: 1.5rem;
+}
